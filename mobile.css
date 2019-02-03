@@ -2,29 +2,8 @@
 /* CSS Document */
 
 body {
-    background-color:#FDFBF9;
-    color:#52433e;
-    font-family: 'Inconsolata', mono;
     font-size:16px;
     line-height:1.4em;
-}
-
-a:link, a:visited {
-    color:inherit;
-}
-
-a:hover {
-    text-decoration:none;
-    color:#F2AE96;
-}
-
-a.nah:link, a.nah:visited {
-    text-decoration:none;
-}
-
-a.nah:hover {
-    text-decoration:underline;
-    color:white;
 }
 
 h1 {
