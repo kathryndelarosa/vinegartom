@@ -2,11 +2,23 @@
 /* CSS Document */
 
 body {
-    background-color:#444444;
-    color:#fff;
-    font-family: 'Sorts Mill Goudy', serif;
+    background-color:#ffffff;
+    color:#000000;
+    font-family: 'Cutive Mono', mono;
     font-size:16px;
-    line-height:1.4em;
+    line-height:1.6em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Sorts+Mill+Goudy:400,400i');
+
+p {
+    margin:2em 0;
 }
 
 a:link, a:visited {
@@ -15,7 +27,7 @@ a:link, a:visited {
 
 a:hover {
     text-decoration:none;
-    color:#F2AE96;
+    color:#AD2834;
 }
 
 a.nah:link, a.nah:visited {
@@ -28,39 +40,36 @@ a.nah:hover {
 }
 
 h1 {
-    font-family:'Poppins', sans-serif;
-    font-weight:800;
-    text-align:left;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight:400;
+    text-align:center;
     line-height:1.25;
     padding-top:1em;  
-    font-size:3em;
+    font-size:7em;
 }
 
 h2 {
     line-height:1.25;
     font-size:2.5em;
-    text-align:left;
-    font-weight:normal;
-    font-family:'Poppins', sans-serif;
-    font-weight:800;
+    text-align:center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight:normal;    
 }
 
 h3 {
     line-height:1.25;
     font-size:2em;
-    text-align:left;
-    font-weight:normal;
-    font-family:'Poppins', sans-serif;
-    font-weight:800;    
+    text-align:center;
+    font-family: 'Sorts Mill Goudy', serif;  
+    font-weight:normal;    
 }
 
 h4 {
     line-height:1;
     font-size:1.5em;
-    font-weight:normal;
-    font-family:'Poppins', sans-serif;
-    font-weight:800;
+    font-family: 'Sorts Mill Goudy', serif;
     margin-top:0;
+    font-weight:normal;    
 }
 
 h5 {
@@ -68,31 +77,30 @@ h5 {
     text-transform: uppercase;
 }
 
-#turgy {
-    width:90%;
-    margin:auto;
-}
-
 .drama {
-    width:100%;
+    width:80%;
+    margin:6em auto;
 }
 
-.pic {
-    width:60%;
+.turgy {
+    width:45%;
     float:left;
+    padding:0 2.5%;
 }
 
-.info {
-    width:35%;
-    float:left;
-    margin-left:2em;
-}
-
-html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
+html, body, #home, #writing, #witches, #resources, #media {
 	height:auto;
 	min-height: 100vh;
     width:100%;
     margin:0;
+}
+
+.biggestboi {
+	height:auto;
+	min-height: 100vh;
+    width:100%;
+    margin:0;
+    display:block;
 }
 
 #contact {
@@ -101,7 +109,7 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
     margin:0;
 }
 
-#home, #about, #dramaturgy, #sound, #plays, #radio, #contact {
+#home, #writing, #witches, #resources, #media, #contact {
     padding:5em 0;
     width:100%;
 }
@@ -111,8 +119,9 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
   position:fixed; 
   top: 0em; 
   width:100%; 
-    background-color:white;
-    border-bottom:1px solid #E3E1E0;
+    background-color:#ffffff;
+    border-bottom:1px solid ;
+    text-align: center;
 }
 
 #mainNav {
@@ -123,15 +132,22 @@ html, body, #home, #about, #dramaturgy, #sound, #plays, #radio {
   }
 }
 
-#mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:1px solid #F2AE96;}
-#mainNav a:hover {color:#F2AE96;border-bottom:0px;}
+#mainNav a {margin:0 .5em 0;text-decoration:none;border-bottom:1px solid #3284A9;}
+#mainNav a:hover {color:#AD2834;border-bottom:0px;}
 
 .tete {width:80%;margin:auto;}
 .bigboi {width:90%;margin:auto;}
 .lilbud {width:50%;margin:auto;}
 .lilcaption {width:60%;margin:auto;font-size:.75em;text-transform:uppercase;margin-bottom:3em;}
-.espace {width:100%;margin:auto;height:3em;clear:both;}
+.espace {width:100%;margin:auto;height:6em;clear:both;}
 
 .caption {font-size:.75em;text-transform:uppercase;margin-top:3em;line-height:1.25;}
 
-#contact {background-color:#F2AE96;color:white;}
+.quote {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size:1.2em;
+    width:80%;
+    margin:auto;
+    padding:1.5em;
+    font-style:italic;
+}
