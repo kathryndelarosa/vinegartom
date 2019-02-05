@@ -53,7 +53,8 @@ h2 {
     font-size:2.5em;
     text-align:center;
     font-family: 'Sorts Mill Goudy', serif;
-    font-weight:normal;    
+    font-weight:normal;  
+    margin:2em 0;
 }
 
 h3 {
@@ -61,7 +62,8 @@ h3 {
     font-size:2em;
     text-align:center;
     font-family: 'Sorts Mill Goudy', serif;  
-    font-weight:normal;    
+    font-weight:normal;   
+    margin:2em 0;
 }
 
 h4 {
@@ -145,9 +147,26 @@ html, body, #home, #writing, #witches, #resources, #media {
 
 .quote {
     font-family: 'Sorts Mill Goudy', serif;
-    font-size:1.2em;
-    width:80%;
+    font-size:1.5em;
+    width:70%;
     margin:auto;
     padding:1.5em;
     font-style:italic;
+    opacity:.5;
+    line-height: 1.5;
+}
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin-top:-30px;
+    margin-left:-25px;
+    font-size:8px;
+    font-family: {'Sorts Mill Goud', serif};
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:uppercase;
+    padding:3px;
+    color:white;
+    background-color:black;
+    z-index:999999;
 }

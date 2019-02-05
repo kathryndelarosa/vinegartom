@@ -17,7 +17,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Sorts+Mill+Goudy:400,400i" rel="stylesheet">
+<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
 
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>    
+    
 </head>
 
 <body>
@@ -25,10 +39,10 @@
 
 <nav id="mainNav">
     <a href="#home" style="margin-left:2em;">&uarr;</a>
-    <a href="#writing">I</a>
-    <a href="#witches">II</a>
-    <a href="#resources">III</a>
-    <a href="#media">IV</a>
+    <a href="#writing" title="Writing">I</a>
+    <a href="#witches" title="Witches">II</a>
+    <a href="#resources" title="Resources">III</a>
+    <a href="#media" title="Actors">IV</a>
     <a href="#contact">?</a>    
 </nav>
 
@@ -99,13 +113,12 @@
     
         <div class="espace"></div>
 
+    <div class="drama">
+        <h3><i>Witches, Midwives and Nurses</i> and second-wave feminism</h3>
+    </div>
     
     <div class="drama">
         <img src="media/blsisterhoodprotest.jpg" width="100%">
-    </div>
-    
-    <div class="tete">
-        <h3><i>Witches, Midwives and Nurses</i> and second-wave feminism</h3>
     </div>
     
     <div class="lilbud">
