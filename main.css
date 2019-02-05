@@ -50,7 +50,7 @@ h1 {
 
 h2 {
     line-height:1.25;
-    font-size:2.5em;
+    font-size:3em;
     text-align:center;
     font-family: 'Sorts Mill Goudy', serif;
     font-weight:normal;  
@@ -124,6 +124,7 @@ html, body, #home, #writing, #witches, #resources, #media {
     background-color:#ffffff;
     border-bottom:1px solid ;
     text-align: center;
+    opacity:.7;
 }
 
 #mainNav {
@@ -151,9 +152,17 @@ html, body, #home, #writing, #witches, #resources, #media {
     width:70%;
     margin:auto;
     padding:1.5em;
-    font-style:italic;
     opacity:.5;
     line-height: 1.5;
+}
+
+.kwote {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size:2em;
+    width:70%;
+    margin:12em auto;
+    line-height: 1.5;
+    text-align: center;
 }
 
 #s-m-t-tooltip {
